@@ -1,7 +1,6 @@
 import { motion, useInView, useMotionValue, animate } from "motion/react";
 import { useEffect, useRef } from "react";
-import portraitAsset from "@/assets/portrait-about.jpg.asset.json";
-const portrait = portraitAsset.url;
+import portrait from "@/assets/portrait-about.jpg";
 import { fadeUp, slideLeft, slideRight, stagger, viewport } from "./motion-presets";
 
 const stats = [

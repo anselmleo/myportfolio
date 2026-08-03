@@ -1,8 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { ArrowUpRight, Sparkles } from "lucide-react";
-import portraitAsset from "@/assets/portrait-hero.jpg.asset.json";
-const portrait = portraitAsset.url;
+import portrait from "@/assets/portrait-hero.jpg";
 import { fadeUp, stagger } from "./motion-presets";
 
 const tags = ["Technology Strategy", "Fintech & Payments", "Cloud Architecture", "Engineering Leadership"];

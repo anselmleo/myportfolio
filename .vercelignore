@@ -1,0 +1,6 @@
+node_modules
+.nitro
+.wrangler
+bun.lock
+*.log
+.DS_Store
