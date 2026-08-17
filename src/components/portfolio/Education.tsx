@@ -5,29 +5,29 @@ import { fadeUp, stagger, viewport } from "./motion-presets";
 const education = [
   {
     icon: GraduationCap,
-    title: "Digital MBA for Technology Leaders",
-    org: "CTO Academy",
-    year: "2023",
+    title: "Master of Business Administration (in progress)",
+    org: "Nexford University, Washington DC",
+    year: "",
   },
   {
     icon: GraduationCap,
     title: "B.Sc. Computer Science",
-    org: "Lagos State University of Science and Technology",
-    year: "",
+    org: "Lagos State University (LASU), Lagos, Nigeria",
+    year: "2016",
   },
 ];
 
 const recognition = [
   {
     icon: Award,
-    title: "AWS Activate Ambassador",
-    org: "Global — Sub-Saharan Africa",
-    year: "",
+    title: "Most Innovative Fintech (OFI category)",
+    org: "Qore Nexus Awards — Stellas Bank",
+    year: "2023",
   },
   {
     icon: Award,
-    title: "CTO Academy Alumni",
-    org: "Digital MBA cohort",
+    title: "AWS Activate Ambassador",
+    org: "Selected for 2023 pilot programme",
     year: "2023",
   },
 ];
@@ -36,33 +36,33 @@ const community = [
   {
     icon: HandHeart,
     title: "Technical Mentor",
-    org: "AltSchool",
+    org: "AltSchool Africa",
     year: "2023 – 2024",
-    desc: "Mentoring aspiring engineers and new graduates entering the industry.",
+    desc: "Mentored aspiring engineers and new graduates entering the industry.",
   },
   {
     icon: HandHeart,
-    title: "Startup Advocate",
-    org: "AWS Fellowship",
-    year: "2022 – 2023",
-    desc: "Advising startups on cloud strategy, budgeting, and scalable architecture.",
+    title: "Engineering Leadership",
+    org: "Stellas, GIGX and ORBIT",
+    year: "",
+    desc: "Hired, led and mentored ~50 engineers; trained ~230 professionals across multiple organizations.",
   },
 ];
 
 const publications = [
   {
     icon: BookOpen,
-    title: "Store Arrays to SQL Using JSON and CASTS",
-    org: "Level Up Coding · Medium",
-    year: "2023",
-    desc: "Practical guide on managing object data structures in Laravel SQL databases.",
+    title: "Data Structures in Laravel and SQL",
+    org: "The Startup & Level Up Coding (Medium)",
+    year: "2020",
+    desc: "Technical bylines on managing data structures in Laravel SQL databases.",
   },
   {
     icon: BookOpen,
-    title: "Software Engineers as Intrapreneurs",
-    org: "LinkedIn Pulse",
-    year: "2024",
-    desc: "How software engineers drive business value and innovation beyond code.",
+    title: "Make Better Software Pricing Decisions",
+    org: "Published article",
+    year: "2023",
+    desc: "Guidance on software pricing strategy and decision-making.",
   },
 ];
 

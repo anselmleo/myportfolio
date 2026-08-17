@@ -4,7 +4,7 @@ import { ArrowUpRight, Sparkles } from "lucide-react";
 import portrait from "@/assets/portrait-hero.jpg";
 import { fadeUp, stagger } from "./motion-presets";
 
-const tags = ["Technology Strategy", "Fintech & Payments", "Cloud Architecture", "Engineering Leadership"];
+const tags = ["Technology Strategy", "Digital Transformation", "FMCG & Supply Chain", "Engineering Leadership"];
 
 export function Hero() {
   const ref = useRef<HTMLDivElement>(null);
@@ -72,10 +72,10 @@ export function Hero() {
                 </div>
                 <div>
                   <div className="font-display text-3xl leading-none gold-text">
-                    10+
+                    17
                   </div>
                   <div className="font-button text-sm uppercase tracking-[0.16em] text-foreground/90 mt-1.5 whitespace-nowrap">
-                    Years of Craft
+                    Years in Tech
                   </div>
                 </div>
               </motion.div>
@@ -96,7 +96,7 @@ export function Hero() {
             >
               <span className="h-px w-8 bg-gold/60" />
               <span className="font-button text-[11px] uppercase tracking-[0.28em] text-gold">
-                Group CTO · AWS Ambassador · CTO Academy Alumni
+                Chief Technology Officer · AWS Activate Ambassador
               </span>
             </motion.div>
 
@@ -111,18 +111,18 @@ export function Hero() {
               variants={fadeUp}
               className="mt-8 text-xl lg:text-2xl leading-snug text-foreground/90 font-display italic max-w-2xl"
             >
-              Technology executive translating engineering rigor into
-              business outcomes across FMCG, fintech, and logistics.
+              Technology executive with 17 years spanning network infrastructure, 
+              software engineering and C-suite leadership—the last four years 
+              continuously in Chief Technology Officer roles.
             </motion.p>
 
             <motion.p
               variants={fadeUp}
               className="mt-6 text-base lg:text-[17px] leading-relaxed text-muted-foreground max-w-2xl"
             >
-              I architect scalable platforms, lead cross-functional
-              engineering teams, and drive digital transformation for
-              ambitious companies operating at the pace of West Africa
-              and beyond.
+              Currently leading technology for ORBIT Technology, covering manufacturing, 
+              supply chain, distribution and retail execution across a diversified FMCG 
+              portfolio reaching 190,000+ retail outlets in 15 Nigerian states.
             </motion.p>
 
             <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-2">

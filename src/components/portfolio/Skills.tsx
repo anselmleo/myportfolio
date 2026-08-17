@@ -3,26 +3,44 @@ import { fadeUp, stagger, viewport } from "./motion-presets";
 
 const groups = [
   {
-    label: "Leadership",
+    label: "Strategy & Leadership",
     skills: [
-      "Technology Strategy",
+      "Technology Strategy & Roadmap",
       "Digital Transformation",
-      "Team Building",
       "IT Governance",
-      "Cross-functional Leadership",
+      "Executive & Board Reporting",
+      "Team Building & Mentorship",
     ],
   },
   {
-    label: "Engineering",
+    label: "Delivery & Operations",
     skills: [
-      "Scalable Systems Architecture",
-      "API Design & Microservices",
-      "Fintech & Payments Platforms",
-      "Cloud Infrastructure (AWS)",
-      "PHP / Laravel",
-      "MongoDB",
-      "Geospatial APIs",
-      "Agile / Scrum",
+      "Enterprise Architecture",
+      "Project Portfolio Governance",
+      "Cross-functional Delivery",
+      "Vendor Selection & Contracts",
+    ],
+  },
+  {
+    label: "Domain Expertise",
+    skills: [
+      "Retail Execution (POS, Order Capture, Inventory)",
+      "Distribution & Supply Chain",
+      "Payments, Settlement & Core Banking",
+      "E-commerce",
+    ],
+  },
+  {
+    label: "Technical",
+    skills: [
+      "AWS Cloud Infrastructure",
+      "Cybersecurity & Regulatory Compliance",
+      "Data Management & Migration",
+      "Network Engineering",
+      "APIs & Microservices",
+      "PHP/Laravel",
+      "TypeScript",
+      "SQL & MongoDB",
     ],
   },
 ];

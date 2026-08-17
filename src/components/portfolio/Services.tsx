@@ -72,7 +72,8 @@ export function Services() {
             <span className="gold-text italic">my sharpest work.</span>
           </motion.h2>
           <motion.p variants={fadeUp} className="mt-6 text-muted-foreground max-w-2xl">
-            A decade of engineering and C-suite leadership, distilled into a focused practice for founders and executives.
+            17 years spanning network infrastructure, software engineering and C-suite leadership, 
+            distilled into a focused practice for founders and executives.
           </motion.p>
         </motion.div>
 

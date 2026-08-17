@@ -4,10 +4,10 @@ import portrait from "@/assets/portrait-about.jpg";
 import { fadeUp, slideLeft, slideRight, stagger, viewport } from "./motion-presets";
 
 const stats = [
-  { value: 10, suffix: "+", label: "Years of Experience" },
-  { value: 120, suffix: "+", label: "Projects Delivered" },
-  { value: 60, suffix: "+", label: "Global Clients" },
-  { value: 25, suffix: "+", label: "Technologies Mastered" },
+  { value: 17, suffix: "", label: "Years in Technology" },
+  { value: 190000, suffix: "+", label: "Retail Outlets Served" },
+  { value: 50, suffix: "~", label: "Engineers Led" },
+  { value: 3, suffix: "", label: "Regulated Markets" },
 ];
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {
@@ -66,19 +66,21 @@ export function About() {
               variants={fadeUp}
               className="mt-8 text-muted-foreground leading-relaxed"
             >
-              Accomplished technology executive with 10+ years spanning hands-on
-              engineering and C-suite leadership. Proven track record of driving
-              digital transformation across FMCG, fintech, and logistics in West
-              Africa.
+              Technology executive with 17 years spanning network infrastructure, 
+              software engineering and C-suite leadership—the last four years 
+              continuously in Chief Technology Officer roles. I currently lead 
+              technology for ORBIT Technology, covering a distribution network 
+              reaching 190,000+ retail outlets across 15 Nigerian states.
             </motion.p>
 
             <motion.p
               variants={fadeUp}
               className="mt-4 text-muted-foreground leading-relaxed"
             >
-              Expert at translating technology investment into business outcomes
-              — from architecting scalable platforms to building and leading
-              high-performance teams.
+              Before that I built the technology function for two regulated financial 
+              platforms, taking one from project team to a licensed digital bank serving 
+              ~27,000 customers. My career began in networks and systems administration 
+              and ran through enterprise architecture to board-level strategy.
             </motion.p>
 
             <motion.div

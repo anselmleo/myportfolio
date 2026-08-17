@@ -8,40 +8,48 @@ const experiences = [
     company: "ORBIT Technology Inc.",
     role: "Chief Technology Officer",
     points: [
-      "Define and execute company-wide technology strategy across a diversified FMCG portfolio spanning pharmaceuticals, personal care, food, and distribution.",
-      "Drive end-to-end digital transformation across manufacturing, supply chain, and retail operations.",
-      "Architect scalable systems supporting large-scale distribution and retail networks across West Africa.",
-      "Lead cross-functional engineering, infrastructure, and data teams aligned with business growth objectives.",
+      "Own company-wide technology strategy across manufacturing, supply chain, distribution and retail operations for a ~30-year Nigerian FMCG conglomerate.",
+      "Direct digital transformation agenda and serve as technology owner for retail distribution covering 190,000+ outlets across 15 Nigerian states.",
+      "Own the group's retail execution stack end to end—field order capture, inventory management, POS and merchant payment devices including sound boxes.",
+      "Lead engineering, infrastructure and data functions; set architecture standards, security posture and vendor selection across the group.",
     ],
   },
   {
     year: "Sep 2023 — May 2025",
-    company: "The GIG Group · GIGX",
+    company: "GIGX Technologies Inc. (GigXPAD)",
     role: "Chief Technology Officer",
     points: [
-      "Led engineering for GIGX, a cross-border payments platform enabling multi-currency transactions across Africa.",
-      "Architected robust systems for payments, settlements, and financial integrations, enhancing operational efficiency.",
-      "Built scalable backend services improving transaction reliability and system performance at scale.",
+      "Architected core platform for cross-border payments and multi-currency wallet across African and North American corridors.",
+      "Built engineering function and delivery process for regulated, multi-jurisdiction product carrying FINTRAC (Canada) compliance and Bank of Zambia licensing.",
+      "Platform serves 50,000+ active users across 15+ countries.",
     ],
   },
   {
-    year: "May 2021 — Sep 2023",
-    company: "The GIG Group · Stellas Bank",
+    year: "Jan 2022 — Sep 2023",
+    company: "Stellas Bank — The GIG Group",
     role: "Chief Technology Officer",
     points: [
-      "Owned full technology strategy and execution for Stellas Bank, a licensed fintech subsidiary of The GIG Group.",
+      "Owned end-to-end technology strategy and execution for a licensed digital bank, taking product from project team to national public launch in February 2022.",
       "Built and scaled backend systems for secure, high-volume financial transactions and customer-facing APIs.",
-      "Designed service architecture ensuring regulatory compliance, security, and enhanced user experience.",
+      "Led successful migration of core banking ledger for millions of records from Appzone (Qore) to Udara360 ensuring zero loss of transaction integrity.",
+      "By March 2023 the platform served ~27,000 customers and had processed £31M+ in transaction value.",
+    ],
+  },
+  {
+    year: "Jun 2021 — Jan 2022",
+    company: "Stellas Bank — The GIG Group",
+    role: "Team Lead — Digital Bank Project",
+    points: [
+      "Led founding project team that built the digital bank from inception; promoted to Chief Technology Officer ahead of February 2022 launch.",
     ],
   },
   {
     year: "Nov 2020 — May 2021",
-    company: "The GIG Group · GIG Mobility",
+    company: "GIG Mobility — The GIG Group",
     role: "Lead Engineer",
     points: [
-      "Led backend engineering for logistics and mobility systems ensuring efficient and reliable operations.",
-      "Developed geospatial solutions using Google Maps APIs to improve routing and user experience.",
-      "Collaborated with offshore teams to deliver innovative transport solutions and optimized workflows.",
+      "Led backend engineering for logistics and mobility systems supporting national transport and last-mile delivery network.",
+      "Built geospatial routing and tracking capability on Google Maps APIs, improving route planning and passenger experience.",
     ],
   },
   {
@@ -49,8 +57,8 @@ const experiences = [
     company: "Intelligent Innovations Co.",
     role: "Senior Software Engineer",
     points: [
-      "Designed innovative software solutions and implemented robust server-side logic in the core engineering team.",
-      "Enhanced enterprise software capabilities, improving functionality and end-user experience across products.",
+      "Designed and implemented server-side systems within core engineering team.",
+      "Extended the company's enterprise software capability across its product portfolio.",
     ],
   },
   {
@@ -58,8 +66,17 @@ const experiences = [
     company: "Cousant Connect",
     role: "Software Engineer",
     points: [
-      "Developed scalable, automated solutions tailored to diverse customer needs across multiple verticals.",
-      "Extended and maintained software systems to meet evolving demands of key user demographics.",
+      "Built scalable, automated business solutions for clients across multiple sectors.",
+      "Maintained and extended production systems against evolving customer requirements.",
+    ],
+  },
+  {
+    year: "2009 — 2016",
+    company: "Pedachess Educational Ltd",
+    role: "IT Coordinator & Network Engineer",
+    points: [
+      "Ran organization's IT function end to end: network design and administration, systems and user support, hardware procurement and vendor management.",
+      "Delivered ICT training programmes to staff and candidates, authoring training material used across sessions.",
     ],
   },
 ];
@@ -92,14 +109,14 @@ export function Experience() {
               Experience
             </span>
           </motion.div>
-          <motion.h2
-            id="experience-title"
-            variants={fadeUp}
-            className="font-display text-4xl lg:text-5xl leading-tight"
-          >
-            A decade of<br />
-            <span className="gold-text italic">shipping in production.</span>
-          </motion.h2>
+            <motion.h2
+              id="experience-title"
+              variants={fadeUp}
+              className="font-display text-4xl lg:text-5xl leading-tight"
+            >
+              17 years of<br />
+              <span className="gold-text italic">shipping in production.</span>
+            </motion.h2>
         </motion.div>
 
         <div ref={trackRef} className="relative">

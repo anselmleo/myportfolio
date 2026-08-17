@@ -66,7 +66,7 @@ export function Contact() {
                 </div>
                 <div className="min-w-0">
                   <div className="font-button text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Email</div>
-                  <div className="text-sm truncate">me@anselmmba.com</div>
+                  <div className="text-sm truncate">anselm.mba@gmail.com</div>
                 </div>
               </li>
               <li className="flex items-center gap-4">
@@ -74,8 +74,8 @@ export function Contact() {
                   <MapPin size={16} />
                 </div>
                 <div className="min-w-0">
-                  <div className="font-button text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Base</div>
-                  <div className="text-sm">Working globally · Based in Lagos</div>
+                  <div className="font-button text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Location</div>
+                  <div className="text-sm">Lagos, Nigeria</div>
                 </div>
               </li>
             </ul>
